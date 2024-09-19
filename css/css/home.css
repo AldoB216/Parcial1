@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Estilo de encabezado */
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9679A8;
+    height: 12vh;
+    box-shadow: 0px 3px 32px 0px rgba(0,0,0,0.2);
+}
+
+.title {
+    color: #fff;
+    font-size: 2.3em;
+}
+
+/* Estilo de Cuerpo */
+
+.main {
+    min-height: 80vh;
+    width: 80vw;
+    margin: 50px auto;
+    display: flex;
+    box-shadow: 0px 3px 32px 0px rgba(0,0,0,0.2);
+    border-radius: 6px;
+}
+
+/* Estilo de tabla de contenido */
+
+.content-navbar {
+    width: 20%;
+    font-size: 1.3em;
+    padding: 50px 30px;
+    border-radius: 6px 0 0 6px;
+    border: 1px solid rgb(206, 206, 206);
+}
+
+.content-navbar li {
+    list-style: numeric;
+    margin: 10px 0 10px 30px;
+}
+
+.content-navbar p {
+    font-weight: bold;
+}
+
+.content-navbar li a {
+    text-decoration: none;
+}
+
+.content-navbar li a:hover {
+    text-decoration: underline;
+}
+
+.active {
+    color: #9000e9;
+}
+
+.inactive {
+    color: rgb(56, 56, 56);
+}
+
+/* Estilo de contenido */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    font-size: 1.1em;
+    padding: 50px;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 0 6px 6px 0;
+}
+
+.subtitle {
+    font-size: 1.9em;
+}
+
+.content-text {
+    text-align: justify;
+}
+
+.content h3, .content p {
+    width: 100%;
+}
+
+.content-img {
+    width: 70%;
+}
+
+/* Estilo de pie de pagina */
+
+.footer {
+    background-color: #f3e5fc;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    box-shadow: 0px -3px 32px 0px rgba(0,0,0,0.2);
+}
+
+.footer-content {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.resena {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.resena p {
+    width: 80%;
+    text-align: justify;
+}
+
+.resena p span {
+    font-style: italic;
+}
+
+.profile {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 32px 0px rgba(0,0,0,0.3);
+}
